@@ -1,0 +1,24 @@
+{
+  "name": "exercise-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcocrupi/exercise-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcocrupi/exercise-nodejs/issues"
+  },
+  "homepage": "https://github.com/marcocrupi/exercise-nodejs#readme",
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "supertest": "^6.3.3"
+  }
+}
