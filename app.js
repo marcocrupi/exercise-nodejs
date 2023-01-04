@@ -6,16 +6,7 @@ function createApp() {
 
     response.setHeader("Content-Type", "text/html");
 
-    const htmlResponseBody = `
-<html>
-  <head>
-    <title>Welcome to the World Wide Web!</title>
-  </head>
-  <body>
-    <p>Welcome to the World Wide Web!</p>
-  </body>
-</html>
-`;
+    const htmlResponseBody = "Welcome to the World Wide Web!";
 
     response.end(htmlResponseBody);
   });
