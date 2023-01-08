@@ -31,8 +31,8 @@ const familyTree = [
   },
 ];
 
-console.dir(familyTree);
-console.table(familyTree);
+console.dir(familyTree, { depth: null });
+console.log(JSON.stringify(familyTree, null, 2));
 
 // Challenge 3:
 // Output a count value every time the importantTask function is called.
